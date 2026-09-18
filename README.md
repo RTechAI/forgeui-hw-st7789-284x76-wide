@@ -211,7 +211,7 @@ The ForgeUI Hardware Lab provides physically tested hardware references that can
 
 This repository contains the ForgeUI Hardware Lab implementation, configuration, documentation and physical validation work for this hardware target.
 
-Third-party libraries and reference implementations are not claimed as ForgeUI-owned code and retain their original licences and copyright.
+Unless otherwise noted, ForgeUI-authored repository content is licensed under the MIT License. Third-party dependencies and reference implementations are not claimed as ForgeUI-owned code and retain their respective licences and copyright.
 
 ## Display Library Dependency
 
@@ -221,4 +221,4 @@ https://github.com/atoomnetmarc/TFT_eSPI-ST7789-76x284
 
 The dependency provides support for the unusual 76×284 ST7789 panel geometry used by this project.
 
-The library is third-party software and remains subject to its own copyright and license terms. It is not part of the ForgeUI-authored source code.
+The library is an external third-party dependency and remains subject to its own copyright and license terms. It is not part of the ForgeUI-authored source code; its attribution must be retained.
