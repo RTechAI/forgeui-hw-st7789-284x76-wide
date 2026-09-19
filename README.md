@@ -1,11 +1,13 @@
 # ForgeUI Hardware Lab — ST7789 284×76 Wide Display
 
-A physically tested ESP32-S3 hardware reference for the **2.25-inch ST7789 76×284 SPI TFT display**, developed as part of the ForgeUI Hardware Lab.
+A physically tested ESP32-S3 hardware reference for the **2.25-inch ST7789 76×284 SPI TFT display**. This official ForgeUI Hardware Lab project preserves the known-good **284×76 landscape** configuration physically proven on real hardware.
 
-This project explores small, low-cost ESP32 displays as future hardware targets for **ForgeUI Studio**, a visual embedded UI/HMI development environment for ESP32 hardware.
+ForgeUI is developed by [RTechAI](https://github.com/RTechAI). This repository is maintained as part of the ForgeUI Hardware Lab and provides the golden ESP32/ST7789 284×76 baseline on which related ForgeUI hardware showcases can build.
 
-**ForgeUI Studio:** https://studio.forgeui.co.nz  
-**ForgeUI website:** https://forgeui.co.nz
+Hardware Lab validation proves this display configuration; it does not by itself indicate that this hardware target is currently integrated into ForgeUI Studio.
+
+**ForgeUI:** https://forgeui.co.nz
+**ForgeUI Hosted Studio:** https://studio.forgeui.co.nz
 
 ---
 
@@ -125,20 +127,21 @@ Third-party libraries and dependencies remain subject to their respective licenc
 
 ## ForgeUI Hardware Lab
 
-The ForgeUI Hardware Lab is used to investigate and physically validate ESP32 boards, TFT displays, sensors and I/O hardware that may become future targets or example projects for **ForgeUI Studio**.
+ForgeUI Hardware Lab is an RTechAI/ForgeUI collection of physically tested ESP32 boards, displays, peripherals, examples, and experimental projects. It establishes reproducible hardware baselines through hardware identification, minimal bring-up, physical proof, and preservation of known-good configurations. Demonstrations and candidate targets can then be evaluated for future ForgeUI Studio workflows.
 
-The general validation process is:
+This Hardware Lab project does not by itself indicate that this ST7789 284×76 target is currently integrated into ForgeUI Studio.
 
-1. Identify the physical hardware.
-2. Establish a minimal independent bring-up.
-3. Physically prove the display and wiring.
-4. Preserve the known-good hardware configuration.
-5. Implement an LVGL version.
-6. Create useful hardware demonstrations.
-7. Evaluate integration with ForgeUI Studio.
-8. Validate Studio design → simulation → firmware export → physical hardware.
+---
 
-This approach separates hardware bring-up problems from Studio integration problems and provides a reproducible physical reference for each device.
+## Related ForgeUI Projects
+
+- [ST7789 284×76 Wide Display](https://github.com/RTechAI/forgeui-hw-st7789-284x76-wide) — this repository; the known-good physical ESP32-S3/ST7789 284×76 hardware baseline.
+
+- [ForgeUI MicroDash](https://github.com/RTechAI/forgeui-hw-st7789-284x76-wide-microdash) — compact embedded dashboard/UI showcase for the same wide-display hardware family.
+
+- [ForgeUI MicroRacer](https://github.com/RTechAI/forgeui-hw-st7789-284x76-wide-microracer) — joystick-controlled arcade racing and graphics showcase for the same wide-display hardware family.
+
+- [ForgeUI Tunnel Run](https://github.com/RTechAI/forgeui-hw-st7789-284x76-wide-tunnelrun) — joystick-controlled procedural tunnel arcade and graphics showcase for the same wide-display hardware family.
 
 ---
 
@@ -182,16 +185,13 @@ Potential future workflow:
 
 ---
 
-## About ForgeUI Studio
+## About ForgeUI
 
-**ForgeUI Studio** is a visual development environment for building embedded user interfaces and HMI applications for ESP32 hardware.
+[ForgeUI](https://forgeui.co.nz) is developed by [RTechAI](https://github.com/RTechAI). ForgeUI Studio is a visual embedded UI/HMI development environment for supported ESP32 hardware.
 
-ForgeUI development includes visual UI design, LVGL-based firmware generation, hardware-specific export targets, simulation, and build/flash workflows.
+ForgeUI Hardware Lab is the associated physically tested hardware, reference, and project collection. Hardware Lab projects preserve reproducible physical evidence and evaluate hardware and examples for future ForgeUI workflows.
 
-The ForgeUI Hardware Lab provides physically tested hardware references that can be used to investigate and validate additional display and ESP32 targets.
-
-**Website:** https://forgeui.co.nz  
-**Hosted Studio:** https://studio.forgeui.co.nz
+[ForgeUI Hosted Studio](https://studio.forgeui.co.nz) is available for public registration.
 
 ---
 
