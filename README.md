@@ -9,6 +9,14 @@ This project explores small, low-cost ESP32 displays as future hardware targets 
 
 ---
 
+## Physical Hardware Proof
+
+![ForgeUI ST7789 284x76 physical hardware validation](splash_st7789-284x76-wide.png)
+
+**PHYSICAL DISPLAY PASS — ESP32-S3 + ST7789 2.25" 76×284 TFT**
+
+---
+
 ## Physical Hardware Status
 
 **PHYSICAL DISPLAY PASS**
